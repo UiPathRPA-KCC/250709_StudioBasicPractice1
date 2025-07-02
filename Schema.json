@@ -1,0 +1,268 @@
+{
+  "entities": [
+    {
+      "name": "KCCPracticeApp1",
+      "displayName": "KCC_Practice_App1",
+      "entityTypeId": 0,
+      "entityType": "Entity",
+      "description": "",
+      "fields": [
+        {
+          "name": "EmplopyeeID",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "직원 ID",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Name",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "이름",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "JobRole",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "직무",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Department",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "부서",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "HriDate",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "입사일",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "EmploymentStatus",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "재직 상태",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Salary",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "급여",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Position",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "직급",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "WorkLocation",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "근무지",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "Gender",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "성별",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "DateofBirth",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "생년월일",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        },
+        {
+          "name": "ContractType",
+          "isPrimaryKey": false,
+          "isForeignKey": false,
+          "isExternalField": false,
+          "isHiddenField": false,
+          "fieldCategoryId": 0,
+          "isUnique": false,
+          "referenceType": "ManyToOne",
+          "sqlType": {
+            "name": "NVARCHAR",
+            "lengthLimit": 200
+          },
+          "isRequired": false,
+          "displayName": "계약 형태",
+          "description": "",
+          "isSystemField": false,
+          "isAttachment": false,
+          "isRbacEnabled": false,
+          "isModelReserved": false
+        }
+      ],
+      "isRbacEnabled": false,
+      "invalidIdentifiers": [],
+      "isModelReserved": false
+    }  ],
+  "choicesets": []
+}
